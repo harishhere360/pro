@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+}
+.column {
+  flex: 1;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.column.over {
+  border: 2px dashed #333;
+}
+
+h1 {
+  margin: 20px 0;
+}
+.card {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card.dragging {
+  opacity: 0.5;
+  cursor: grabbing;
+}
